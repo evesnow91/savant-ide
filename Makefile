@@ -33,7 +33,7 @@ else
 endif
 
 scilla-src:
-	git clone git@github.com:Zilliqa/scilla
+	git clone https://github.com/Zilliqa/scilla.git
 	git -C scilla fetch --all
 	git -C scilla checkout $(SCILLA_BRANCH)
 	git -C scilla pull
